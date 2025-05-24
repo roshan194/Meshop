@@ -74,14 +74,17 @@ aside {
   padding-top: 1rem;
 }
 
-aside section {
+aside section,
+aside .filter-section {
   padding: 1rem;
   border-bottom: 1px solid white;
 }
 
-aside section:last-child {
+aside section:last-child,
+aside .filter-section:last-of-type {
   border-bottom: none;
 }
+
 
 aside .title {
   font-size: 1.2rem;
