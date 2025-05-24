@@ -1,9 +1,5 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-  }
+/* styles.css */
+
   
   body, h1, p, button {
     font-family: 'Segoe UI', sans-serif;
@@ -30,32 +26,20 @@ body {
     text-decoration: none;
     color: white;
   }
-  
-  
-  main {
-    margin: 2rem;
-  }
-  
-  h1 {
-    font-size: 24px;
-    margin: 1.5rem 0 1rem;
-  }
-  
-  input {
+
+#signup-form input {
     display: block;
-    width: 80%;
-    max-width: 500px;
-    margin: 0.5rem auto;
-    padding: 0.5rem;
-    border: 1px solid #000;
+    margin: 8px 0;
+    width: 100%; /* optional: to make inputs stretch full width */
+    padding: 8px; /* optional: for better look */
+    box-sizing: border-box; /* optional: keeps padding inside width */
   }
   
-  button {
+  #signup-form button {
     background-color: black;
     color: white;
-    padding: 0.5rem 1rem;
-    margin: 0.5rem;
-    cursor: pointer;
-    border: none;
+    margin: 8px 0;
+    padding: 8px;
+    display: block;
   }
   

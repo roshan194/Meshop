@@ -1,25 +1,43 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Profile</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
-  </head>
-  <body>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="#">upgrade your browser</a> to improve your experience.
-      </p>
-    <![endif]-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Profile</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav>
+    <div class="brand">
+      <a href="/">MeShop.</a>
+    </div>
+    <div class="nav-items">
+      <a href="/">Home</a>
+      <a href="/login">Login</a>
+      <a href="/signup">Signup</a>
+      <a href="/cart">My Cart</a>
+      <a href="/profile">Profile</a>
+    </div>
+  </nav>
+  <header>
+    <h2>Shopping Cart</h2>
+  </header>
 
-    <script src="" async defer></script>
-  </body>
+  <main>
+    <h1>My Profile</h1>
+    <input type="text" id="firstName" placeholder="First Name">
+    <input type="text" id="lastName" placeholder="Last Name">
+    <button id="saveInfo">Save Info</button>
+
+    <h1>Edit Password</h1>
+    <input type="password" id="oldPassword" placeholder="Old Password">
+    <input type="password" id="newPassword" placeholder="New Password">
+    <input type="password" id="confirmNewPassword" placeholder="Confirm New Password">
+    <button id="changePassword">Change Password</button>
+
+    <button id="logout">Logout</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
 </html>

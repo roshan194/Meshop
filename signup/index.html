@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Signup - MeShop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <div class="brand">
+      <a href="/">MeShop.</a>
+    </div>
+    <div class="nav-items">
+      <a href="/">Home</a>
+      <a href="/login">Login</a>
+      <a href="/signup">Signup</a>
+      <a href="/cart">My Cart</a>
+      <a href="/profile">Profile</a>
+    </div>
+  </nav>
+  <div>
+    <h2>Signup</h2>
+    <form id="signup-form">
+      <input type="text" placeholder="First Name" id="fname" required />
+      <input type="text" placeholder="Last Name" id="lname" required />
+      <input type="email" placeholder="Email" id="email" required />
+      <input type="password" placeholder="Password" id="pswd" required />
+      <input type="password" placeholder="Confirm Password" id="cnf_pswd" required />
+      <button type="submit">Signup</button>
+    </form>
+    <p id="message" style="color: red;"></p>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>

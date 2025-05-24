@@ -1,1 +1,81 @@
-/* Write styles here */
+/* Reset some default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, h1, p, button {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #000;
+  color: white;
+}
+
+.brand a {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-items a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+/* Main section */
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px 40px;
+}
+
+/* Left side (text and buttons) */
+.container {
+  max-width: 50%;
+}
+
+.container h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.container button:first-child {
+  background-color: black;
+  color: white;
+}
+
+.container button:last-child {
+  background-color: white;
+  color: black;
+}
+
+/* Right side image */
+#bg-img {
+  margin-top: 20px;
+  max-width: 45%;
+  height: auto;
+  object-fit: contain;
+}
